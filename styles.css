@@ -1,0 +1,48 @@
+body{
+    margin: 0
+}
+div{
+    padding: 20px;
+}
+
+#main{
+    background-color: blanchedalmond;
+
+}
+
+nav{
+    background-color: rgb(240, 229, 10);
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    display: flex
+
+}
+
+nav li{
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+nav  a{
+    text-decoration:none;
+    color: black;
+
+
+}
+nav a:hover{
+    color: red;
+}
+
+nav img{
+    width: 45vw;
+    height: auto;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+   
+}
