@@ -1,45 +1,112 @@
-body{
-    margin: 0
-}
-div{
-    padding: 20px;
+
+:root{
+    --primary: #0d6efd;
+    --dark: #21252f;
+    --body: rgb(13, 15, 16);
+    --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.1);
 }
 
-#main{
-    background-color: blanchedalmond;
+body{   
+    font-family: 'Cardo', serif;
+    line-height: 1.7;
+    color: var(--body);
 }
 
-nav{
-    background-color: rgb(240, 229, 10);
-    display: flex;
-    flex-direction: row;
+h1,h2,h3,h4,h5
+.display-4{
+    color:var(--dark);
+    font-weight: 700;
 }
 
-nav ul{
-    display: flex
-}
-
-nav li{
-    margin-left: 20px;
-    list-style-type: none;
-}
-
-nav  a{
+a{
+    color:var(--dark);
     text-decoration:none;
-    color: black;
+}
+.navbar .logo{
+    width:200px;
 }
 
-nav a:hover{
-    color: red;
+
+
+.slider{
+    background-image: url(./assets/img/Slider-photo-1.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position:relative;
+    z-index: 2;
 }
 
-nav img{
-    width: 45vw;
-    height: auto;
+.slider::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 116, 195, 0.5);
+    z-index: -1; 
 }
 
-.menu{
-    display:flex;
+.card{
+    border-radius: 0.25rem;
+    box-shadow: var(--box-shadow);
+    transition: all 0.3s ease-in-out;
+    width: auto;
+    height:auto;
+    margin-bottom: 1rem;
+
+}
+
+.team-member img {
+    border-radius: 300px;
+    width: 125px%;
+    height: 125%;
+    object-fit: cover;
+    
+}
+.social-links{
+    display: flex;
+    justify-content:center;
     align-items: center;
-  
+    margin-top: 1rem;
+}
+.social-links a{
+    width:34px;
+    height:34px;
+    background-color: var(white);
+    border-radius: 2px solid var(--primary);
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 100px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+footer{
+    width:100%;
+    background-color: #f8f9fa;
+    padding:3% 3% 3% 3%;
+    color: var(--dark);
+}
+.fa{
+    padding:15px;
+    font: size 25px;
+}
+
+.fa:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.icon{
+    max-width: 200px;
 }
