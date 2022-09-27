@@ -48,6 +48,106 @@ a{
     z-index: -1; 
 }
 
+#roma{
+    background-image: url(./assets/img/roma.jpg);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    max-width: auto;
+    font-size: 15px;
+    border:0;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
+
+#madrid{
+    background-image: url(./assets/img/madrid.jpg);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    max-width: auto;
+    font-size: 15px;
+    border: 0;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+
+
+}
+
+#londres{
+    background-image: url(./assets/img/londres.jpg);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    max-width: auto;
+    font-size: 15px;
+    border: 0;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
+
+#maldivas{
+    background-image: url(./assets/img/maldivas.jpg);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    max-width: auto;
+    font-size: 15px;
+    border: 0;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
+
+#bangkok{
+    background-image: url(./assets/img/paris.jpg);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    max-width: auto;
+    font-size: 15px;
+    border: 0;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
+
+#tokyo{
+    background-image: url(./assets/img/bangkok.jpg);
+    height: 10vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+    max-width: auto;
+    font-size: 15px;
+    border: 0;
+    overflow: hidden;
+    white-space: pre-line;
+    text-overflow: ellipsis;
+}
+
+
+
 .card{
     border-radius: 0.25rem;
     box-shadow: var(--box-shadow);
@@ -56,15 +156,16 @@ a{
     height:auto;
     margin-bottom: 1rem;
 
+
 }
 
 .team-member img {
     border-radius: 300px;
     width: 125px%;
     height: 125%;
-    object-fit: cover;
-    
+    object-fit: cover;  
 }
+
 .social-links{
     display: flex;
     justify-content:center;
@@ -109,4 +210,61 @@ footer{
 
 .icon{
     max-width: 200px;
+}
+
+/* Tips*/
+.main-row{
+    margin:8%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.blog-img{
+    width: 400px;
+    height: 100px;
+    transform: translateY(-30px) translateX(225px);
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 8px 3px rgba(0,0,0,.3);
+
+}
+.blog-img:hover{
+    transform: translateY(-40px) scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.blog-date span {
+    color: var(black);
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 0.5rem;
+    
+
+}
+ 
+
+
+
+.blog-title > h2 {
+    font-size: normal;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    color: var(--dark);
+
+
+}
+
+.blog-desc > p {
+    font-style: normal;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--dark);
+    margin-bottom: 1rem;
+
 }
